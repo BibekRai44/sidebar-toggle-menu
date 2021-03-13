@@ -8,6 +8,7 @@
 	width: 30%;
 	height: 100%;
 	left: -30%;
+    top: 10%;
 	background-color: white;
 }
 #sidebar li{
@@ -20,7 +21,6 @@
 }
 .toogle-btn{
 	position:absolute;
-	left:105%;
 	top:15px;
 }
 .toogle-btn span{
