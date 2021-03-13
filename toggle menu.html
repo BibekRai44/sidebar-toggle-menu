@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	
+	<title> toogle menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+
+		function tooglemenu(){
+			
+			document.getElementById('sidebar').classList.toogle('active');
+		}
+	</script>
+	
+</head>
+<body>
+	<div id="sidebar" onclick="tooglemenu()">
+		<div class="toogle-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+			
+		</div>
+		  <ul>
+		  	<li>Home</li>
+		  	<li>Blogs</li>
+		  	<li>contact me</li>
+		  	<li>About me</li>
+		  </ul>
+		
+	</div>
+
+</body>
+</html>
